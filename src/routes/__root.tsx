@@ -15,10 +15,32 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title: "hotelbd18 — Coming Soon",
+      },
+      {
+        name: "description",
+        content:
+          "hotelbd18.com — a simpler way to find and book hotels across Bangladesh. Opening soon.",
+      },
+      {
+        name: "theme-color",
+        content: "#061a14",
       },
     ],
     links: [
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Hanken+Grotesk:wght@400..700&family=Hind+Siliguri:wght@400;500&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
